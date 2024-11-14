@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+    background-color: #FFE4E1;
+}
+.logo{
+    width: 100px;
+}
+header{
+    width: 100%;
+    text-align: center;
+}
+h1{
+    color: #5C4033;
+}
+header p{
+    font-size: 16px;
+    color: #5C4033;
+
+}
+.search{
+    position: relative;
+    margin-top: 20px;
+}
+.search > input{
+padding: 10px;
+border: none;
+outline: none;
+width: 100%;
+border-radius: 30px;
+}
+.title-search{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(50%,-50%);
+
+}
+.icon-search{
+    position: absolute;
+   width: 20px;
+   top: 50%;
+   right: 3%;
+   transform: translate(50%,-50%);
+}
+.title{
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+    padding-block: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+article{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.list-menu{
+    width: 30%;
+    height: 100%;
+}
+.new-product{
+    width: 70%;
+}
+.new-product > h2{
+    padding-bottom: 10px;
+    text-align: center;
+}
+.title-menu{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.list-items{
+ padding: 10px;
+ border-radius: 10px;
+ height:650px;
+ overflow-y: scroll;
+ background-color: #fff;
+}
+.list-items > li {
+  border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    cursor: pointer;
+font-size: 16px;
+
+}
+.title-profile{
+    margin-top: 20px;
+    text-align: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+.product{
+width: 100%;
+}
+
+.title-profile {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.title-profile > h2{
+    padding-block: 10px;
+}
+.title-profile p{
+    font-size: 16px;
+}
+.title-profile a{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.product > img{
+    width: 100%;
+    border-radius: 10px;
+}
+.product > span{
+display: block;    
+text-align: center;
+padding-top: 5px;
+font-size: 16px;
+}
+.title-profile a{
+    display: block;
+}
